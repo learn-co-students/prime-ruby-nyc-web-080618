@@ -8,13 +8,13 @@ def prime?(int)
     value
   else 
   index = 0
-  while index < array.size
-  if int % array[index] == 0
-  value = false
-  end
+    while index < array.size
+      if int % array[index] == 0
+      value = false
+      end
   index += 1
-end
-end
+    end
+  end
 value
 end
 
